@@ -3,7 +3,7 @@
 
 #Printing a list of all Ips contained in the dns.log file
 Every_ip = []
-with open("dns.log","r") as f:
+with open("/home/mkevans00/Desktop/dns.log","r") as f:
     var = f.readline()
     my_list = var.split()
     print(my_list[1])
